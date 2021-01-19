@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1040278901059",
+    "firebase_url": "https://registerapplication-a98e8.firebaseio.com",
+    "project_id": "registerapplication-a98e8",
+    "storage_bucket": "registerapplication-a98e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1040278901059:android:6484f0bbb012829efe9ff6",
+        "android_client_info": {
+          "package_name": "com.example.registerapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1040278901059-i5qfd737eoorku72mqaq17h3gpialhqk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBueq3BnjSSn_2WIhLmpwgCEV0FwrSw0i8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1040278901059-i5qfd737eoorku72mqaq17h3gpialhqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

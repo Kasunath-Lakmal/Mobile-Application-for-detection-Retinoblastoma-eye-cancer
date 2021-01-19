@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="black">  #000000</color>
+    <color name = "round_gradient_button_start_color">#DC2424</color>
+    <color name="round_gradient_button_end_color">#4A569D</color>
+
+    <color name="pupal1">#421b95</color>
+    <color name="pupal2">#6d39cd</color>
+
+
+
+    <color name = "round_green">#A4EC57</color>
+    <color name = "round_blue">#ACBAF1</color>
+
+
+    <color name = "round_blue1">#FFFFFF</color>
+    <color name = "round_green1">#3F1E99</color>
+
+
+
+
+
+
+    <!--<color name="circular_textview_background">#FF0000</color>
+    <color name="colourCall">#039233</color>
+    <color name="plain_white">#ffffff</color>
+    <color name="color_url">#2246e7</color>
+-->
+
+
+</resources>

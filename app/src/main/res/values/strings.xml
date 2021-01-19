@@ -1,0 +1,114 @@
+<resources>
+    <string name="app_name">I-Cure</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="text_alcohol">Alcohol</string>
+    <string name="text_coffee">Coffee</string>
+    <string name="text_pasta">Pasta</string>
+    <string name="text_cold_drinks">Cold Drinks</string>
+    <string name="text_expanded">Expanded</string>
+    <string name="text_collapsed">Collapsed</string>
+
+
+    <string-array name="string_array_alcohol">
+        <item>Vodka</item>
+        <item>Rum</item>
+        <item>Whiskey</item>
+        <item>Gin</item>
+        <item>Tequila</item>
+    </string-array>
+
+    <string-array name="string_array_coffee">
+        <item>Espresso</item>
+        <item>Macchiato</item>
+        <item>Cappuccino</item>
+        <item>Cafe Latte</item>
+        <item>Ristretto</item>
+    </string-array>
+
+    <string-array name="string_array_pasta">
+        <item>Carbonara</item>
+        <item>Capellini</item>
+        <item>Spaghetti</item>
+        <item>Gnocchi</item>
+        <item>Lasagnette</item>
+    </string-array>
+
+    <string-array name="string_array_cold_drinks">
+        <item>Cola</item>
+        <item>Lemonade</item>
+        <item>Citrus soda</item>
+        <item>Juice</item>
+        <item>Sparkling Water</item>
+    </string-array>
+    <string name="title_activity_nearest_places_of_current_lacation">Map</string>
+    <string name="title_activity_nearest_places_of_current_location">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="ok">ok</string>
+    <string name="cancel">cancel</string>
+    <string name="gender">gender</string>
+    <string name="job">job</string>
+    <string name="name">name</string>
+    <string name="Doctor_Name">Doctor_Name</string>
+    <string name="Next_Clinic_Date">Next_Clinic_Date</string>
+    <string name="Attended_Date">Attended_Date</string>
+    <string name="Doctor_Comment">Doctor_Comment</string>
+
+
+    <!--find docotor data-->
+
+    <string-array name="items_class">
+        <item>Colombo</item>
+        <item>Matara</item>
+        <item>Galle</item>
+        <item>Hambantota</item>
+    </string-array>
+
+    <string-array name="items_div_Colombo">
+        <item>Dehiwala</item>
+        <item>Homagama</item>
+        <item>Kaduwela</item>
+        <item>Kesbewa</item>
+        <item>Kolonnawa</item>
+        <item>Maharagama</item>
+        <item>Moratuwa</item>
+        <item>Ratmalana</item>
+    </string-array>
+
+    <string-array name="items_div_Matara">
+        <item>Akuressa</item>
+        <item>Athuraliya</item>
+        <item>Devinuwara</item>
+        <item>Dickwella</item>
+        <item>Hakmana</item>
+        <item>Kamburupitiya</item>
+        <item>Kotapola</item>
+        <item>Malimbada</item>
+    </string-array>
+
+    <string-array name="items_div_Galle">
+        <item>Ahangama</item>
+        <item>Ahungalla</item>
+        <item>Ambalangoda</item>
+        <item>Baddegama</item>
+        <item>Balapitiya</item>
+        <item>Batapola</item>
+        <item>Bentota</item>
+        <item>Boossa</item>
+    </string-array>
+
+    <string-array name="items_div_Hambantota">
+        <item>Ambalantota</item>
+        <item>Beliatta</item>
+        <item>Tissamaharama</item>
+        <item>Middeniya</item>
+        <item>Angunukolapelessa</item>
+        <item>Middeniya</item>
+        <item>Walasmulla</item>
+        <item>Weeraketiya</item>
+    </string-array>
+
+
+</resources>

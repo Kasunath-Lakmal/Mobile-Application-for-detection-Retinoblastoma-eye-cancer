@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent"
+    tools:context=".ClinicHistoryActivity">
+
+    <TextView
+        android:id="@+id/icure_clinic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="CLINIC HISTORY"
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/icure_imageView12"
+        app:layout_constraintStart_toEndOf="@+id/icure_clinic_imgeView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/icure_clinic_imgeView"
+        android:layout_width="58dp"
+        android:layout_height="50dp"
+        android:background="@drawable/backarrow64"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/icure_imageView12"
+        android:layout_width="58dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/menu64"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:background="#f4f4f4"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="61dp"
+        android:layout_marginBottom="40dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="10dp">
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Message"/>
+
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="310dp"
+            android:layout_height="360dp"
+            android:layout_marginTop="20dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/setBtn"
+                android:layout_width="302dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/background3"
+                android:text="SET REMINDER"
+                android:textColor="#050000"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+            <!--<Button
+                android:id="@+id/cancelBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CANCEL"/>-->
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
